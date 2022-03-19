@@ -10,7 +10,7 @@ export function pintarTienda(){
         {foto:"img/foto13.jpg", nombre:"t800",          precio:55000000,   descripcion:"transmicion automatica  conbustible gasolina 5000km"},
         {foto:"img/foto9.png",  nombre:"volvo FH12",    precio:300000000,  descripcion:"transmicion automatica  gas natural diesel 0km"},
         {foto:"img/foto10.jpg", nombre:"furgon",        precio:190000000,  descripcion:"transmicion manual  conbustible diesel 0km"},
-        {foto:"img/foto11.jpg", nombre:"volvo electric",precio:400000000,  descripcion:"transmicion electrica  conbustible diesel 0km"},
+        {foto:"img/foto11.jpg", nombre:"volvo electric",precio:400000000,  descripcion:"transmicion manual  conbustible electrico 0km"},
         {foto:"img/foto12.webp",nombre:"furgon FVR",    precio:120000000,  descripcion:"transmicion mecanica  conbustible diesel 0km"}
     ]
     
@@ -79,15 +79,10 @@ export function pintarTienda(){
         targeta.appendChild(precio)
         targeta.appendChild(boton)
         columna.appendChild(targeta)
-        
         fila.appendChild(columna)
        
       
       
-        //************************ */
-        //crando boton
-        
-
        
       
     })
